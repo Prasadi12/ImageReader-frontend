@@ -1,4 +1,31 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.context{
+  height: 50vh;
+  border: 1px solid;
+  margin-top: 80px;
+  padding: 40px;
+}
+
+.file-input {
+  margin-bottom: 10px;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  background-color: #8f1818;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.extracted-text {
+  margin-top: 20px;
+  color: #4d97e7;
 }
 
